@@ -41,8 +41,6 @@ main .mis_skills h2{
 
 main .portafolio{
     background-color: #FFD233;
-    display: flex;
-    justify-content: space-evenly;
     padding: 20px;
 }
 main .portafolio h2{
