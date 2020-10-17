@@ -65,10 +65,17 @@ main .sobre_mi a{
 main .mis_skills{
     background-color: #9022FF;
 }
+main .mis_skills .skill{
+    width: 70%;
+    display: flex;
+    justify-content: space-between;
+    color: white;
+}
 main .mis_skills h2{
     color: #26CC4B;
     text-align: center;
     padding-top: 20px;
+    padding-bottom: 20px;
 }
 main .mis_skills div{
     flex-grow: 90%;
