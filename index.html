@@ -10,62 +10,62 @@
 <body>
     <div>
         <main>
-            <section class="cabecera">
+            <section class="head">
                 <figure><img src="./images/image1.png" alt="" srcset=""></figure>
                 <h1>Pachacutec</h1>
                 <h2>Hola, mi nombre es Luis Espinoza</h2>
             </section>
-            <section class="sobre_mi">
+            <section class="about_me">
                 <h2>Sobre mi</h2>
                 <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Cum beatae non ratione, commodi quisquam dolore. Eaque saepe aperiam qui modi fuga ab aspernatur minima illum beatae dolorem, laborum molestias amet!Lorem ipsum, dolor sit amet consectetur adipisicing elit. Cum beatae non ratione, commodi quisquam dolore. Eaque saepe aperiam qui modi fuga ab aspernatur minima illum beatae dolorem, laborum molestias amet!Lorem ipsum, dolor sit amet consectetur adipisicing elit. Cum beatae non ratione, commodi quisquam dolore. Eaque saepe aperiam qui modi fuga ab aspernatur minima illum beatae dolorem, laborum molestias amet!Lorem ipsum, dolor sit amet consectetur adipisicing elit. Cum beatae non ratione, commodi quisquam dolore. Eaque saepe aperiam qui modi fuga ab aspernatur minima illum beatae dolorem, laborum molestias amet!</p>
                 <a href="#">Ver CV</a>
             </section>
-            <section class="mis_skills">
+            <section class="my_skills">
                 <h2>Mis Skills</h2>
                 <div class="skill">
                     <div>
                         <h3>HTML</h3>
-                        <div class="b_blanca">
-                            <div class="b_celeste"></div>
+                        <div class="b_white">
+                            <div class="b_light-blue"></div>
                         </div>
                     </div>
                     <div>
                         <h3>CSS</h3>
-                        <div class="b_blanca">
-                            <div class="b_celeste"></div>
+                        <div class="b_white">
+                            <div class="b_light-blue"></div>
                         </div>
                     </div>
                 </div>
                 <div class="skill">
                     <div>
                         <h3>Javascript</h3>
-                        <div class="b_blanca">
-                            <div class="b_celeste"></div>
+                        <div class="b_white">
+                            <div class="b_light-blue"></div>
                         </div>
                     </div>
                     <div>
                         <h3>Vue</h3>
-                        <div class="b_blanca">
-                            <div class="b_celeste"></div>
+                        <div class="b_white">
+                            <div class="b_light-blue"></div>
                         </div>
                     </div>
                 </div>
                 <div class="skill">
                     <div>
                         <h3>Flexbox</h3>
-                        <div class="b_blanca">
-                            <div class="b_celeste"></div>
+                        <div class="b_white">
+                            <div class="b_light-blue"></div>
                         </div>
                     </div>
                     <div>
                         <h3>CSS Grid</h3>
-                        <div class="b_blanca">
-                            <div class="b_celeste"></div>
+                        <div class="b_white">
+                            <div class="b_light-blue"></div>
                         </div>
                     </div>
                 </div>
             </section>
-            <section class="portafolio">
+            <section class="briefcase">
                 <h2>Portafolio</h2>
                 <div>
                     <figure><img src="./images/image (0).png" alt="" srcset=""></figure>
@@ -80,7 +80,7 @@
                     <figure><img src="./images/image (7).png" alt="" srcset=""></figure>
                 </div>
             </section>
-            <section class="clientes">
+            <section class="customers">
                 <h2>Clientes</h2>
                 <div>
                     <figure><img src="./images/cliente(0).png" alt="" srcset=""></figure>
@@ -89,20 +89,22 @@
                     <figure><img src="./images/cliente(3).png" alt="" srcset=""></figure>
                 </div>
             </section>
-            <section class="contacto">
-                <h2>Contacto</h2>
-                <div>
-                    <input type="text" name="Nombre" id="" placeholder="Nombre">
-                    <input type="text" name="Apellido" id="" placeholder="Apellido">
-                </div>
-                <div>
-                    <input type="email" name="email" id="" placeholder="Email">
-                    <input type="tel" name="telefono" id="" placeholder="Teléfono">
-                </div>
-                <div>
-                    <textarea name="Descripcion" id="" cols="30" rows="10" placeholder="Descripción"></textarea>
-                </div>
-                <div><input class="btn_enviar" type="button" value="ENVIAR"></div>
+            <section class="contacts">
+                <form>
+                    <h2>Contacto</h2>
+                    <div>
+                        <input required pattern="[a-zA-Z]+" type="text" name="Nombre" id="" placeholder="Nombre">
+                        <input required pattern="[a-zA-Z]+" type="text" name="Apellido" id="" placeholder="Apellido">
+                    </div>
+                    <div>
+                        <input required type="email" name="email" id="" placeholder="Email">
+                        <input required pattern="[0-9]+" type="tel" name="telefono" id="" placeholder="Teléfono">
+                    </div>
+                    <div>
+                        <textarea required name="Descripcion" id="" cols="30" rows="10" placeholder="Descripción"></textarea>
+                    </div>
+                    <div><button class="btn_enviar">ENVIAR</button></div>
+                </form>
             </section>
         </main>
     </div>
