@@ -1,0 +1,36 @@
+/* GLOBALES */
+body{
+    font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
+    font-size: 14px;
+}
+form{
+    width: 30%;
+    border: 1px solid #cdcdcd;
+    padding: 20px;
+}
+/* FORMULARIO */
+input, select{
+    width: 70%;
+    padding: 20px;
+    border: 1px solid #cdcdcd;
+    margin-left: 10%;
+    margin-bottom: 10px;
+    color: cornflowerblue;
+}
+select{
+    width: 78%;
+}
+button{
+    width: 78%;
+    padding: 20px;
+    margin-left: 10%;
+    border: 1px solid black;
+    color: crimson;
+}
+/* VALIDACIONES */
+input:focus:invalid,
+select:focus:invalid{
+    border: 2px solid red;
+    color: red;
+    outline: none;
+}
